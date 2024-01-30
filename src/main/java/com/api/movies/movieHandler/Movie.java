@@ -22,8 +22,6 @@ public class Movie {
     @Id
     private String id;
 
-//    private String _id;
-
     private String imdbId;
 
     private String title;
@@ -34,13 +32,6 @@ public class Movie {
 
     private List<String> genres;
     private String poster;
-
-//    @CreatedDate
-//    private Date createdAt;
-//
-//    @LastModifiedDate
-//    private Date updatedAt;
-
     @DBRef
     private List<String> backdrops;
 
